@@ -1,10 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* Custom Colors */
-  --color-sh-navy: #13253B;
-  --color-sh-gold: #DA8B29;
-  --color-sh-light: #F4F5F7;
+  --color-sh-navy: #13253b;
+  --color-sh-gold: #da8b29;
+  --color-sh-light: #f4f5f7;
+  --color-sh-gray: #8a8a8a;
 
   /* Custom Fonts */
   --font-sans: var(--font-inter), sans-serif;
