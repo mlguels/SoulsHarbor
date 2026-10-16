@@ -56,7 +56,7 @@ const NavBar = () => {
           </Link>
           <Link
             href="#give"
-            className="bg-sh-gold text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-opacity-95 transition shadow-sm text-xs"
+            className="bg-sh-gold text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-95 transition shadow-sm text-xs"
           >
             GIVE
           </Link>
