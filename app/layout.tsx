@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 import { Inter, Playfair_Display } from 'next/font/google';
+import NavBar from '@/components/NavBar';
 
 export const metadata: Metadata = {
   title: 'Souls Harbor Apostolic Church',
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="bg-white text-sh-navy font-sans antialiased">
+        <NavBar />
         {children}
       </body>
     </html>
