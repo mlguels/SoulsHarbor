@@ -9,12 +9,14 @@ export default function Pastor() {
       <section className="pb-20 px-4 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 font-sans text-sh-navy leading-relaxed">
           <Image
-            src="/Pastor-Riley-and-Wife.jpg"
+            src="/pastor-wife.jpg"
             width={500}
             height={250}
             alt="Jordan Riley"
+            loading="eager"
+            className="rounded-sm"
           />
-          <p className="text-2xl pt-25">
+          <p className="text-lg pt-25">
             Was raised in an apostolic home and was taught the Word of God from
             a very early age. He felt the Call of God to preach at age 15 and
             acknowledged that call by age of 17. He began preaching and teaching
