@@ -15,7 +15,7 @@ const ScheduleCard = ({
   const baseClasses = 'p-8 rounded-2xl shadow-md flex-1 text-center';
   const colorClasses = isHighlighted
     ? 'bg-sh-navy border-4 border-sh-gold text-white'
-    : 'bg-sh-light text-sh-navy';
+    : 'bg-sky-100/25 text-sh-navy';
 
   return (
     <div className={`${baseClasses} ${colorClasses}`}>
