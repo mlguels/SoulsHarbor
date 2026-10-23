@@ -28,7 +28,7 @@ export default function LivestreamPage() {
             width={800}
             height={362}
             priority
-            className="w-[320px] sm:w-[480px] md:w-[620px] h-auto object-contain"
+            className="w-[320px] sm:w-120 md:w-155 h-auto object-contain"
           />
         </a>
       </div>
