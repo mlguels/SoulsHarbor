@@ -155,7 +155,7 @@ const NavBar = () => {
               OUR PASTOR
             </Link>
             <Link
-              href="#livestream"
+              href="/livestream"
               onClick={() => setIsOpen(false)}
               className="hover:text-sh-gold transition"
             >
