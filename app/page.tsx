@@ -26,6 +26,14 @@ export default function Home() {
           <p className="font-sans text-md sm:text-lg md:text-xl font-light tracking-[0.2em] text-white/95 drop-shadow-md uppercase">
             Apostolic Church
           </p>
+          <Image
+            src="/whiteanchor.png"
+            alt="Souls Harbor Anchor"
+            width={110}
+            height={50}
+            priority
+            className="w-20 h-auto md:w-28 drop-shadow-2xl object-contain"
+          />
         </div>
       </section>
 

@@ -98,7 +98,7 @@ const NavBar = () => {
             CONTACT
           </Link>
           <Link
-            href="#give"
+            href="/give"
             className="bg-sh-gold text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-95 transition shadow-sm text-xs"
           >
             GIVE
