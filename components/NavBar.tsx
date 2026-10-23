@@ -43,7 +43,7 @@ const NavBar = () => {
               onClick={() => setDropdownOpen(!dropdownOpen)}
               className="flex items-center gap-1 hover:text-sh-gold transition font-light text-xs focus:outline-none"
             >
-              ABOUT
+              INFO
               <svg
                 className={`w-3 h-3 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
                 fill="none"
