@@ -4,18 +4,33 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="bg-white">
-      <section className="pt-32 pb-16 flex flex-col items-center justify-center text-center bg-white">
+      {/* 1. HERO SECTION WITH BACKGROUND & OVERLAY */}
+      <section className="relative min-h-130 md:min-h-155 flex flex-col items-center justify-center text-center px-4 pt-32 pb-16 overflow-hidden">
+        {/* Background Skyline Image */}
         <Image
-          src="/Souls-Harbor-logo.jpg"
-          width={800}
-          height={500}
-          alt="Souls Harbor Logo"
-          loading="eager"
-          className="w-100 md:w-150 h-auto mb-8"
+          src="/heroimage.PNG"
+          alt="Reno Skyline and Sierra Nevada Mountains"
+          fill
+          priority
+          className="object-cover object-center z-10"
         />
+
+        {/* Contrast Tint Overlay */}
+        <div className="absolute inset-0 bg-black/45 z-10" />
+
+        {/* Hero Title & Subtitle */}
+        <div className="relative z-20 flex flex-col items-center">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white drop-shadow-xl uppercase mb-2">
+            SOULS HARBOR
+          </h1>
+          <p className="font-sans text-md sm:text-lg md:text-xl font-light tracking-[0.2em] text-white/95 drop-shadow-md uppercase">
+            Apostolic Church
+          </p>
+        </div>
       </section>
 
-      <section className="flex flex-col items-center justify-center">
+      {/* 2. SCHEDULE SECTION */}
+      <section className="flex flex-col items-center justify-center pt-16">
         <h1 className="font-serif text-4xl text-sh-navy font-bold mb-2 uppercase tracking-wide">
           JOIN US THIS WEEK
         </h1>
